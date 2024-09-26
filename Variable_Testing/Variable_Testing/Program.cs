@@ -94,6 +94,14 @@
             Console.WriteLine(heroFullName + " now has " + heroHealth + " health!");
             // Hero attacks
             Console.WriteLine(heroFullName + " attacks " + villainName + " the " + villainTitle + " for " + heroStrength + " damage!");
+            //do math
+            bossHealth = bossHealth - heroStrength;
+            //Display results in the console
+            Console.WriteLine(villainName + " the " + villainTitle + " now has " + bossHealth + " health!");
+
+            //Results
+            Console.WriteLine(heroFullName + " is victorious!");
+            Console.WriteLine("Wealth, glory, and straight A+'s to the winner!");
         }
     }
 }
